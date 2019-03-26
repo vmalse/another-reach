@@ -8,6 +8,7 @@ deploy:
  provider: elasticbeanstalk
  region: "us-east-2"
  app: "docker-react"
+ github_token: $github_token
  env: "DockerReact-env"
  bucket-name: "elasticbeanstalk-us-east-2-563953357779"
  bucket-path: "docker-react"
